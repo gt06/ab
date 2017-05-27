@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AB_Dbchange>
+            <active>true</active>
+            <codePool>local</codePool>
+        </AB_Dbchange>
+    </modules>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AB_Dbchange>
+            <version>0.1.0</version>
+        </AB_Dbchange>
+    </modules>
+    <global>
+        <resources>
+            <ab_dbchange_setup>
+              <setup>
+                   <module>AB_Dbchange</module>
+                   <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+              </setup>
+          </ab_dbchange_setup>
+        </resources>
+    </global>
+</config>
